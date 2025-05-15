@@ -1345,6 +1345,7 @@ footer::before {
 
 .footer-social {
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -1452,6 +1453,9 @@ footer::before {
     color: var(--secondary);
     text-decoration: none;
 }
+.footer-bottom p {
+    font-size: 1rem;
+}
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
@@ -1531,6 +1535,9 @@ footer::before {
     .cta-buttons {
         flex-direction: column;
         align-items: center;
+    }
+    .footer-bottom p {
+        font-size: 0.8rem;
     }
 }
 
