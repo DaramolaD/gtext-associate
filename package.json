@@ -1,0 +1,28 @@
+{
+  "name": "high-ticket-real-estate-challenge",
+  "version": "1.0.0",
+  "description": "21 Days High Ticket Real Estate Sales Challenge - May 18th 2025 to June 7th 2025. Learn advanced techniques for selling premium real estate properties.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server",
+    "build": "echo 'No build step required for static site'",
+    "start": "live-server"
+  },
+  "keywords": [
+    "real-estate",
+    "sales-challenge",
+    "high-ticket",
+    "property-sales",
+    "business-training",
+    "sales-training"
+  ],
+  "author": "Daniel Daramola",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "font-awesome": "^6.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+} 
