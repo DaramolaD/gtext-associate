@@ -599,6 +599,7 @@ header.scrolled {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
+    object-position: top;
 }
 
 .speaker-card:hover .speaker-image {
@@ -823,9 +824,10 @@ header.scrolled {
 
 .registration-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    grid-template-columns: 1fr;
+    gap: 40px;
     align-items: center;
+    justify-items: center;
     position: relative;
 }
 
@@ -1594,4 +1596,20 @@ footer::before {
 
 .fadeInUp {
     animation: fadeInUp 0.5s ease-out;
+}
+.whatsapp-link {
+    color: #25D366; /* WhatsApp green color */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.whatsapp-link:hover {
+    color: #128C7E; /* Darker WhatsApp green */
+    transform: scale(1.05);
+}
+
+.separator {
+    margin: 0 4px;
+    color: #666;
 }
