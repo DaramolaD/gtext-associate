@@ -797,7 +797,8 @@ header.scrolled {
 }
 
 .schedule-desc {
-    color: var(--gray-dark);
+    /* color: var(--gray-dark); */
+    color: #888;
     font-size: 1.2rem;
     font-style: italic;
 }
